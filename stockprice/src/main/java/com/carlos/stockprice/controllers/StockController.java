@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.carlos.stockprice.constants.RabbitMQConstants;
-import com.carlos.stockprice.dtos.StockDTO;
 import com.carlos.stockprice.services.RabbitMQService;
+
+import constants.RabbitMQConstants;
+import dtos.StockDTO;
 
 @RestController
 @RequestMapping(value = "/stocks")
