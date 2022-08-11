@@ -19,5 +19,7 @@ public class StockConsumer {
 		System.out.println(stockDTO.productCode);
 		System.out.println(stockDTO.quantity);
 		System.out.println("-------------------------");
+
+		throw new IllegalArgumentException("Argumento inválido");
 	}
 }
